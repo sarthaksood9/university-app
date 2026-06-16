@@ -19,7 +19,7 @@ export const universities = [
 		ranking: "#3 (Global)",
 		tuitionFee: "GBP 33,050 / year",
 		imageUrl:
-			"https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80",
+			"https://accommodationforstudents.com/cdn-cgi/image/f=auto,q=85,w=960/https://images.accommodationforstudents.com/website/university-guides/gb/university-of-oxford/uni.jpg",
 	},
 	{
 		id: 3,
