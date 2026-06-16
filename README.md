@@ -111,24 +111,11 @@ Add your app screenshots in this section.
 
 ![Details Screen](assets/screenshots/details-screen.png)
 
-If you have not added screenshots yet, create this folder first:
-
-```bash
-mkdir -p assets/screenshots
-```
-
-Then save images as:
-
-- assets/screenshots/home-screen.png
-- assets/screenshots/details-screen.png
 
 ## Future Improvements
 
 - Add search and filter by country
 - Add favorites/bookmark functionality
 - Integrate live university API data
-- Add dark mode and theme customization
 
-## License
 
-This project is available under the license in [LICENSE](LICENSE).
