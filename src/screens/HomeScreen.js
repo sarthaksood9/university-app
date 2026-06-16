@@ -19,14 +19,11 @@ const HomeScreen = ({ navigation }) => {
 				<Text style={styles.title}>University List</Text>
 			</View>
 			<FlatList
+				style={styles.list}
 				data={universities}
 				keyExtractor={(item) => item.id.toString()}
 				renderItem={renderItem}
-				contentContainerStyle={{
-					paddingHorizontal: "5%",
-					paddingBottom: 24,
-					alignItems: "center",
-				}}
+				contentContainerStyle={styles.listContent}
 				ItemSeparatorComponent={() => <View style={styles.itemSeparator} />}
 			/>
 		</>
@@ -38,7 +35,16 @@ const styles = StyleSheet.create({
 		paddingVertical: 16,
 		paddingHorizontal: "5%",
 	},
+	list: {
+		width: "100%",
+	},
+	listContent: {
+		paddingHorizontal: "5%",
+		paddingBottom: 24,
+	},
 	cardWrapper: {
+		width: "100%",
+		maxWidth: 760,
 		alignSelf: "center",
 	},
 	itemSeparator: {
